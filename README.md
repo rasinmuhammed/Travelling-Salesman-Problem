@@ -21,7 +21,7 @@ city_names = [
     "Chevayur,Kozhikode",
     "Hilite Mall,Kozhikode"
 ]
-
+```
 3. Run the program by executing the script:
 
 python tsp_solver.py
