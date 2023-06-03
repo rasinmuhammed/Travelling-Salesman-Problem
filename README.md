@@ -8,9 +8,9 @@ This repository contains a Python program to solve the Travelling Salesman Probl
 To use the program, follow these steps:
 
 1. Install the required dependencies by running the following command:
-
+```python
 pip install osmnx requests
-
+```
 
 2. Replace the `city_names` list with the names of the cities you want to visit. Make sure the names are in the format "Place Name, City". For example:
 ```python
@@ -23,15 +23,16 @@ city_names = [
 ]
 ```
 3. Run the program by executing the script:
-
+```python
 python tsp_solver.py
-
+```
 4. The program will output the optimal tour starting from the specified city and its cost. For example:
-
+```python
 Optimal tour starting from Chevayur, Kozhikode:
 Chevayur, Kozhikode -> Kozhikode Beach, Kozhikode -> Tali Temple, Kozhikode -> Hilite Mall, Kozhikode -> Mananchira Square, Kozhikode -> Chevayur, Kozhikode
 
 Optimal cost:  32.78
+```
 
 ## Dependencies
 
